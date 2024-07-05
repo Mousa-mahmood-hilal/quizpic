@@ -89,7 +89,7 @@ ios/Flutter/flutter_export_environment.sh
 # linux
 linux/
 # mac
-mac/
+macos/
 # Other
 *.iml
 *.log
