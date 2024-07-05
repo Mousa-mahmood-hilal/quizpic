@@ -13,7 +13,6 @@ User-friendly interface
 
 # screenshots
 
-Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
 ![start app](Screenshot_1720179374.png)  |   ![first question](Screenshot_1720179404.png)
 ![correct chose](Screenshot_1720179417.png) | ![end game](Screenshot_1720179494.png)
