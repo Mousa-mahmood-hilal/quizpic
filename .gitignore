@@ -88,7 +88,7 @@ ios/Flutter/flutter_export_environment.sh
 .vscode/
 # linux
 linux/
-# mac
+# macos
 macos/
 # Other
 *.iml
