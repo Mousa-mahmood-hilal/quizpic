@@ -100,8 +100,8 @@ class _MyHomePageState extends State<MyHomePage> {
           Alert(
             context: context,
             type: AlertType.success,
-            title: "App ALERT",
-            desc: "the game is done press the button start to restart",
+            title: "game over",
+            desc: "the game is done press the restart button  to restart",
             buttons: [
               DialogButton(
                 onPressed: () => Navigator.pop(context),
@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   Color.fromRGBO(52, 138, 199, 1.0)
                 ]),
                 child: const Text(
-                  "start",
+                  "restart",
                   style: TextStyle(color: Colors.white, fontSize: 20),
                 ),
               )
@@ -188,30 +188,49 @@ class _MyHomePageState extends State<MyHomePage> {
                 image: AssetImage(stateimage),
               ),
             )),
-            Row(
+            Column(
               children: [
                 Container(
                   padding: const EdgeInsets.all(10.0),
                   margin: const EdgeInsets.all(20.0),
-                  child: FloatingActionButton(
-                    onPressed: solution,
-                    tooltip: 'solve',
-                    child: const Icon(Icons.check),
+                  child: Row(
+                    children: [
+                      const Expanded(
+                        child:  Text('to see the solution \nclick the next button:',
+                            style: TextStyle(fontSize: 25)),
+                      ),
+                      Container(
+                        margin: const EdgeInsets.all(10),
+                        child: FloatingActionButton(
+                          onPressed: solution,
+                          tooltip: 'solve',
+                          child: const Icon(Icons.check),
+                        ),
+                      ),
+                      Expanded(
+                        child: Text(
+                          _solution,
+                          style: const TextStyle(fontSize: 35),
+                        ),
+                      ),
+                    ],
                   ),
-                ),
-                Text(
-                  _solution,
-                  style: const TextStyle(fontSize: 35),
                 ),
                 Container(
-                  padding: const EdgeInsets.all(10.0),
-                  margin: const EdgeInsets.all(20.0),
-                  child: FloatingActionButton(
-                    onPressed: level,
-                    tooltip: 'start',
-                    child: const Icon(Icons.start),
-                  ),
-                ),
+                    padding: const EdgeInsets.all(10.0),
+                    margin: const EdgeInsets.all(20.0),
+                    child: Row(
+                      children: [
+                        Container(
+                          margin: const EdgeInsets.all(20),
+                          child: const Text('next level:',style: TextStyle(fontSize: 25))),
+                        FloatingActionButton(
+                          onPressed: level,
+                          tooltip: 'start',
+                          child: const Icon(Icons.start),
+                        ),
+                      ],
+                    )),
               ],
             ),
           ],

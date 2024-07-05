@@ -1,6 +1,19 @@
-# matching_words_image_project
+# matching_the_name_with_the_image_project
 
 A new Flutter project.
+
+# Description
+
+This is a fun and educational app that quizzes users on their animal knowledge. It presents a question and three corresponding images, and users must choose the answer that matches the question.
+
+Features:
+
+Multiple choice animal quiz format
+User-friendly interface
+
+# screenshots
+
+![start app](Screenshot_1720179374.png),![first question](Screenshot_1720179404.png),![correct chose](Screenshot_1720179417.png),![end game](Screenshot_1720179494.png)
 
 ## Getting Started
 
