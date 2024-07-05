@@ -12,16 +12,13 @@ Multiple choice animal quiz format
 User-friendly interface
 
 # screenshots
-
 <table>
  <tr>
     <td><img src="Screenshot_1720179374.png" width=270 height=480 alt='start app'></td>
-    <td><img src="Screenshot_1720179404.png" width=270 height=480 alt='first question'></td>  
-    </tr>
-    <tr>
+    <td><img src="Screenshot_1720179404.png" width=270 height=480 alt='first question'></td>
     <td><img src="Screenshot_1720179417.png" width=270 height=480 alt='correct chose'></td>
     <td><img src="Screenshot_1720179494.png" width=270 height=480 alt='end game'></td>
-</tr>
+  </tr>
  </table>
 
 ## Getting Started
