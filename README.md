@@ -12,9 +12,14 @@ Multiple choice animal quiz format
 User-friendly interface
 
 # screenshots
-
+<table>
+ <tr>
+    <td><img src="Screenshot_1720179374.png" width=270 height=480 alt='start app'></td>
+  </tr>
+ </table>
+Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![start app](Screenshot_1720179374.png)  |   ![first question](Screenshot_1720179404.png)
+![]()  |   ![first question](Screenshot_1720179404.png)
 ![correct chose](Screenshot_1720179417.png) | ![end game](Screenshot_1720179494.png)
 
 
