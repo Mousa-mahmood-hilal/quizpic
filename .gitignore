@@ -140,7 +140,7 @@ ios/Flutter/flutter_export_environment.sh
 
 # Web related
 **/web/**/.last_build_id
-
+/web/
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages 
 
