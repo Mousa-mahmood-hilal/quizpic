@@ -196,7 +196,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Row(
                     children: [
                       const Expanded(
-                        child:  Text('to see the solution \nclick the next button:',
+                        child: Text(
+                            'to see the solution \nclick the next button:',
                             style: TextStyle(fontSize: 25)),
                       ),
                       Container(
@@ -222,8 +223,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Row(
                       children: [
                         Container(
-                          margin: const EdgeInsets.all(20),
-                          child: const Text('next level:',style: TextStyle(fontSize: 25))),
+                            margin: const EdgeInsets.all(20),
+                            child: const Text('next level:',
+                                style: TextStyle(fontSize: 25))),
                         FloatingActionButton(
                           onPressed: level,
                           tooltip: 'start',
