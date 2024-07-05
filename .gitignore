@@ -86,7 +86,10 @@ ios/Flutter/flutter_export_environment.sh
 # IDE files
 .idea/
 .vscode/
-
+# linux
+linux/
+# mac
+mac/
 # Other
 *.iml
 *.log
